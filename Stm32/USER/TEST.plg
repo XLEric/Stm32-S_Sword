@@ -1,0 +1,120 @@
+<html>
+<body>
+<pre>
+<h1>礦ision3 Build Log</h1>
+<h2>Project:</h2>
+D:\李翔\资料\C program\mpu9250备份\mpu9250-2015-11-18\Stm32\USER\TEST.uv2
+Project File Date:  01/24/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STM32F10x.s...
+compiling test.c...
+..\HARDWARE\IMU\imu.h(9): warning:  #1295-D: Deprecated declaration Mag - give arg types
+test.c(96): warning:  #188-D: enumerated type mixed with another type
+test.c(213): warning:  #223-D: function "TIM3_IRQHandler" declared implicitly
+test.c(246): warning:  #188-D: enumerated type mixed with another type
+test.c(288): warning:  #188-D: enumerated type mixed with another type
+test.c(298): warning:  #188-D: enumerated type mixed with another type
+test.c(90): warning:  #177-D: variable "key" was declared but never referenced
+test.c(90): warning:  #177-D: variable "mode" was declared but never referenced
+test.c(92): warning:  #177-D: variable "tmp_buf" was declared but never referenced
+test.c(94): warning:  #177-D: variable "device_ID" was declared but never referenced
+test.c(105): warning:  #550-D: variable "value_gxf2" was set but never used
+test.c(105): warning:  #550-D: variable "value_gyf2" was set but never used
+test.c(105): warning:  #550-D: variable "value_gzf2" was set but never used
+test.c(110): warning:  #177-D: variable "Anglef" was declared but never referenced
+test.c(112): warning:  #177-D: variable "norm" was declared but never referenced
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling led.c...
+compiling key.c...
+compiling wdg.c...
+compiling timer.c...
+compiling wkup.c...
+compiling spi.c...
+compiling imu.c...
+..\HARDWARE\IMU\imu.h(9): warning:  #1295-D: Deprecated declaration Mag - give arg types
+..\HARDWARE\IMU\imu.c(156): warning:  #223-D: function "abs" declared implicitly
+..\HARDWARE\IMU\imu.c(336): warning:  #223-D: function "printf" declared implicitly
+..\HARDWARE\IMU\imu.c(94): warning:  #177-D: variable "p" was declared but never referenced
+..\HARDWARE\IMU\imu.c(94): warning:  #177-D: variable "r" was declared but never referenced
+..\HARDWARE\IMU\imu.c(94): warning:  #177-D: variable "y" was declared but never referenced
+..\HARDWARE\IMU\imu.c(97): warning:  #177-D: variable "hx" was declared but never referenced
+..\HARDWARE\IMU\imu.c(97): warning:  #177-D: variable "hy" was declared but never referenced
+..\HARDWARE\IMU\imu.c(97): warning:  #177-D: variable "hz" was declared but never referenced
+..\HARDWARE\IMU\imu.c(97): warning:  #177-D: variable "bx" was declared but never referenced
+..\HARDWARE\IMU\imu.c(97): warning:  #177-D: variable "bz" was declared but never referenced
+..\HARDWARE\IMU\imu.c(98): warning:  #177-D: variable "wx" was declared but never referenced
+..\HARDWARE\IMU\imu.c(98): warning:  #177-D: variable "wy" was declared but never referenced
+..\HARDWARE\IMU\imu.c(98): warning:  #177-D: variable "wz" was declared but never referenced
+..\HARDWARE\IMU\imu.c(100): warning:  #177-D: variable "tempq0" was declared but never referenced
+..\HARDWARE\IMU\imu.c(100): warning:  #177-D: variable "tempq1" was declared but never referenced
+..\HARDWARE\IMU\imu.c(100): warning:  #177-D: variable "tempq2" was declared but never referenced
+..\HARDWARE\IMU\imu.c(100): warning:  #177-D: variable "tempq3" was declared but never referenced
+..\HARDWARE\IMU\imu.c(101): warning:  #550-D: variable "t11" was set but never used
+..\HARDWARE\IMU\imu.c(102): warning:  #550-D: variable "t12" was set but never used
+..\HARDWARE\IMU\imu.c(104): warning:  #550-D: variable "t21" was set but never used
+..\HARDWARE\IMU\imu.c(105): warning:  #550-D: variable "t22" was set but never used
+..\HARDWARE\IMU\imu.c(107): warning:  #550-D: variable "t31" was set but never used
+..\HARDWARE\IMU\imu.c(108): warning:  #550-D: variable "t32" was set but never used
+..\HARDWARE\IMU\imu.c(408): warning:  #223-D: function "abs" declared implicitly
+..\HARDWARE\IMU\imu.c(521): warning:  #223-D: function "printf" declared implicitly
+..\HARDWARE\IMU\imu.c(388): warning:  #177-D: variable "xh" was declared but never referenced
+..\HARDWARE\IMU\imu.c(388): warning:  #177-D: variable "yh" was declared but never referenced
+..\HARDWARE\IMU\imu.c(392): warning:  #550-D: variable "t21" was set but never used
+..\HARDWARE\IMU\imu.c(393): warning:  #550-D: variable "t22" was set but never used
+..\HARDWARE\IMU\imu.c(395): warning:  #550-D: variable "t31" was set but never used
+..\HARDWARE\IMU\imu.c(396): warning:  #550-D: variable "t32" was set but never used
+..\HARDWARE\IMU\imu.c(607): warning:  #223-D: function "abs" declared implicitly
+..\HARDWARE\IMU\imu.c(713): warning:  #223-D: function "printf" declared implicitly
+..\HARDWARE\IMU\imu.c(548): warning:  #177-D: variable "hx" was declared but never referenced
+..\HARDWARE\IMU\imu.c(548): warning:  #177-D: variable "hy" was declared but never referenced
+..\HARDWARE\IMU\imu.c(548): warning:  #177-D: variable "hz" was declared but never referenced
+..\HARDWARE\IMU\imu.c(548): warning:  #177-D: variable "bx" was declared but never referenced
+..\HARDWARE\IMU\imu.c(548): warning:  #177-D: variable "bz" was declared but never referenced
+..\HARDWARE\IMU\imu.c(549): warning:  #177-D: variable "wx" was declared but never referenced
+..\HARDWARE\IMU\imu.c(549): warning:  #177-D: variable "wy" was declared but never referenced
+..\HARDWARE\IMU\imu.c(549): warning:  #177-D: variable "wz" was declared but never referenced
+..\HARDWARE\IMU\imu.c(551): warning:  #177-D: variable "tempq0" was declared but never referenced
+..\HARDWARE\IMU\imu.c(551): warning:  #177-D: variable "tempq1" was declared but never referenced
+..\HARDWARE\IMU\imu.c(551): warning:  #177-D: variable "tempq2" was declared but never referenced
+..\HARDWARE\IMU\imu.c(551): warning:  #177-D: variable "tempq3" was declared but never referenced
+..\HARDWARE\IMU\imu.c(552): warning:  #177-D: variable "t11" was declared but never referenced
+..\HARDWARE\IMU\imu.c(553): warning:  #177-D: variable "t12" was declared but never referenced
+..\HARDWARE\IMU\imu.c(554): warning:  #177-D: variable "t13" was declared but never referenced
+..\HARDWARE\IMU\imu.c(555): warning:  #177-D: variable "t21" was declared but never referenced
+..\HARDWARE\IMU\imu.c(556): warning:  #177-D: variable "t22" was declared but never referenced
+..\HARDWARE\IMU\imu.c(557): warning:  #177-D: variable "t23" was declared but never referenced
+..\HARDWARE\IMU\imu.c(558): warning:  #177-D: variable "t31" was declared but never referenced
+..\HARDWARE\IMU\imu.c(559): warning:  #177-D: variable "t32" was declared but never referenced
+..\HARDWARE\IMU\imu.c(560): warning:  #177-D: variable "t33" was declared but never referenced
+..\HARDWARE\IMU\imu.c(871): warning:  #223-D: function "printf" declared implicitly
+..\HARDWARE\IMU\imu.c(776): warning:  #550-D: variable "t21" was set but never used
+..\HARDWARE\IMU\imu.c(776): warning:  #550-D: variable "t22" was set but never used
+..\HARDWARE\IMU\imu.c(776): warning:  #550-D: variable "t31" was set but never used
+..\HARDWARE\IMU\imu.c(776): warning:  #550-D: variable "t32" was set but never used
+..\HARDWARE\IMU\imu.c(1036): warning:  #223-D: function "printf" declared implicitly
+..\HARDWARE\IMU\imu.c(894): warning:  #550-D: variable "t21" was set but never used
+..\HARDWARE\IMU\imu.c(894): warning:  #550-D: variable "t22" was set but never used
+..\HARDWARE\IMU\imu.c(894): warning:  #550-D: variable "t31" was set but never used
+..\HARDWARE\IMU\imu.c(894): warning:  #550-D: variable "t32" was set but never used
+..\HARDWARE\IMU\imu.c(1190): warning:  #223-D: function "printf" declared implicitly
+..\HARDWARE\IMU\imu.c(1059): warning:  #550-D: variable "t21" was set but never used
+..\HARDWARE\IMU\imu.c(1059): warning:  #550-D: variable "t22" was set but never used
+..\HARDWARE\IMU\imu.c(1059): warning:  #550-D: variable "t31" was set but never used
+..\HARDWARE\IMU\imu.c(1059): warning:  #550-D: variable "t32" was set but never used
+..\HARDWARE\IMU\imu.c(1309): warning:  #223-D: function "printf" declared implicitly
+..\HARDWARE\IMU\imu.c(1212): warning:  #550-D: variable "t21" was set but never used
+..\HARDWARE\IMU\imu.c(1212): warning:  #550-D: variable "t22" was set but never used
+..\HARDWARE\IMU\imu.c(1212): warning:  #550-D: variable "t31" was set but never used
+..\HARDWARE\IMU\imu.c(1212): warning:  #550-D: variable "t32" was set but never used
+compiling 24l01.c...
+compiling 24cxx.c...
+..\HARDWARE\24CXX\24cxx.c(92): warning:  #550-D: variable "flag" was set but never used
+compiling myiic.c...
+linking...
+Program Size: Code=39070 RO-data=810 RW-data=140 ZI-data=740  
+FromELF: creating hex file...
+"TEST.axf" - 0 Error(s), 91 Warning(s).
